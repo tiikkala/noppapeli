@@ -5,10 +5,6 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 import org.junit.Rule;
 
-/**
- *
- * @author tapio
- */
 public class SovelluslogiikkaTesti {
 
     Sovelluslogiikka peli;
