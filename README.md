@@ -8,7 +8,7 @@ Ohjelma koostuu kolmesta luokasta: laskennan toteuttavasta Sovelluslogiikka-luok
 
 ### Testit ###
 
-Sovelluslogiikka-luokan parille metodille on kirjoitettu yksittötestit JUnit-kirjaston avulla. Testipaketissa sijaitsee myös RepeatRule ja Repat-luokat, joiden avulla on mahdollista ajaa samaa testia monta kertaa. Tämä on hyödyllistä esimerkiksi tapauksissa, joissa metodi sisältää satunnaislukujen luomista, jolloin ajamalla testin monta kertaa voi varmistua siitä, että metodi toimii oikein kaikilla määrätyn joukon luvuilla (tulipahan opiskeltua, kuinka tällaisen voi tehdä, jos joskus olisi todellinen tarve tällaiseen).
+Sovelluslogiikka-luokan parille metodille on kirjoitettu yksittötestit JUnit-kirjaston avulla. Testipaketissa sijaitsee myös RepeatRule ja Repat-luokat, joiden avulla on mahdollista ajaa samaa testia monta kertaa. Tämä on hyödyllistä esimerkiksi tapauksissa, joissa metodi sisältää satunnaislukujen luomista, jolloin ajamalla testin monta kertaa voi varmistua siitä, että metodi toimii oikein kaikilla määrätyn joukon luvuilla (tulipahan opiskeltua, kuinka tällaisen voi tehdä, jos joskus tarvitsee).
 
 Repeat-toiminnallisuus ei ole omaa koodiani, vaan sen on toteuttanut Gihub-käyttäjä [fappel](https://gist.github.com/fappel/8bcb2aea4b39ff9cfb6e#file-repeatrule-java).
 
